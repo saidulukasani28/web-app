@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-model = joblib.load('"C:\Users\DELL\Downloads\trained_model (1).sav"')
+model = joblib.load('C:\Users\DELL\Downloads\trained_model (1).sav')
 st.title('Diabetic Prediction')
 Pragnencies = st.text_input('no.of Pragnencies')
 Glucose = st.text_input('Glucose level')
